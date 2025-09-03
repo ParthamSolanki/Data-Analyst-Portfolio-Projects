@@ -1,17 +1,21 @@
-# Create a copy of the raw data
+# Data cleaning project in SQL
+
+# Create a copy of the raw data, to use as a staging area for the whole process, so in case I mess up I still have the original untouched data.
+
+# Create a table with same columns from the raw table.
 CREATE TABLE books_c
 LIKE books;
 
-# Insert data from books to books_c
+# Insert data from books to books_c or original to copy table.
 INSERT INTO books_c
 SELECT *
 FROM books;
 
-# Checking if data is imported
+# Checking if data is imported.
 SELECT *
 FROM books_c;
 
-# Checking for duplicates
+# Checking for duplicates, we are going to use a CTE which we will partition by unique entries thus giving the unique entries according to the parameters a row_num of 1 and anything other than that means that they are duplicates.
 WITH duplicate_cte AS
 (
 SELECT *, ROW_NUMBER() OVER(PARTITION BY title, authors) AS row_num
@@ -34,7 +38,7 @@ WHERE title = "The Lovely Bones";
 # We see that the books are from the same publisher, with same rating and just that the edition seems to be different by observing the publication date.
 # So we can either include the publisher too in the PARTITION BY to account for this or just remove the older edition, but you need to confirm this with someone before actually deleing the rows.
 # Also some titles have different publishers too. So we can either keep the entries separate or remove the ones with lower ratings and reviews count as they have lesser traction or you can also remove based on other parameters.
-# Adding publisher too
+# Adding publisher too to the PARTITION BY section to account for same and different publishers.
 WITH duplicate_cte AS
 (
 SELECT *, ROW_NUMBER() OVER(PARTITION BY title, authors, publisher) AS row_num
@@ -47,7 +51,7 @@ WHERE row_num>1;
 # By doing this we know that the book titled - Gravity's Rainbow is the only one with same publisher.
 # So we will be deleting this using a query rather than just dropping this specific row which can also be done manually as there is only one entry.
 
-# Deleting the one with lower ratings and review count here
+# Deleting the one with lower ratings and review count here, since there is only one entry so not going through the trouble of writing a script for automating it.
 DELETE
 FROM books_c
 WHERE bookID = '412';
@@ -66,7 +70,9 @@ WHERE row_num>1;
 
 # The code above will produce an error.
 
-# Making a new table with row_num too and then deleting based on it.
+# Making a new table with row_num as an additional column and then deleting based on it.
+
+# Creating a new table like books_c
 CREATE TABLE books_2
 LIKE books_c;
 
@@ -89,7 +95,7 @@ SELECT *
 FROM books_2
 WHERE row_num>1;
 
-# The other way was to self join the table and populate the row_num columns.
+# The other way to get the row_num for automating the duplicate removal procedure is to self join the table and populate the row_num columns.
 
 # Adding the column into the table
 ALTER TABLE books_c
@@ -205,6 +211,6 @@ SET `publication_date` = STR_TO_DATE (`publication_date`, '%m/%d/%Y');
 ALTER TABLE books_c
 MODIFY COLUMN `publication_date` DATE;
 
-# Recheck using the DESCRIBE query.
+# Recheck using the DESCRIBE query to get a birds eye overview of the columns and the data types.
 
 # Most of the data cleaning is done.
