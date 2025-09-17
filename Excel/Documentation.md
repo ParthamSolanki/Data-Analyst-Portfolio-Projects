@@ -32,3 +32,20 @@ Below are the steps listed to create the whole project.
 
 - **Creating an age bracket column to make more insightful visualizations** - We are going to use the column of age created in the previous step to segregate the people into age brackets of say 10 year intervals. The code will be `=IF(AND(AM2>=30, AM2<=40), "30-40", IF(AND(AM2>40, AM2<=50), "40-50", IF(AND(AM2>50, AM2<=60), "50-60", IF(AND(AM2>60, AM2<=70), "60-70", IF(AM2>70, "70+ years", "NULL")))))` . It can seem pretty hectic but its just a basic nested IF as long as you remember the brackets and don't input too many arguments into one IF statement.
 
+- **Creating an Employee Attrition column** - There is already an Employment status column, but creating an attrition column with only yes and no values can simplify it and make it more usable for dashboards and calculating attrition rates. Created using this function in an empty column `=IF(Y2="NULL", "No", "Yes")`
+
+- **Finding the names and ids of managers** - I tried to match if the manager were also listed as employees, which was not the case, if they were I would have created an Ismanager column where yes or no would have told if that person is a manager or not. Alternatively I am just going to copy the manager name and ids to a different sheet and use remove duplicates to get the list of managers.
+
+- **Creating an additional column for count of employees each** - We will count all the employees that are managed by each manager to get a sense of who is managing a ton or people and who is managing less. Use this function in an empty cell and then auto populate all the below rows - `=COUNTIF(Working!AD:AD, Managers!A2)`
+
+## Creating the pivot table
+
+- **Creating an employee headcount by department** - Tells how many total employees were employed per department, including both the active and non active ones.
+
+- **Creating an attrition table by department** - Will be adding an additional filter to find the count of attrition.
+
+- **Creating another table for attrition rate by department and a total attrition rate as a whole** - Creating a calculated field to get the attrition rate would requires there to be the count of employees as a value in the original data as the aggregated data can't be used directly from a pivot table. So creating helper tables that are just pasted values of the pivot tables will help to simplify and fasten the process while still yielding same results.
+
+- **Employee count by age bracket**
+
+- **Employee count, average salary and average age by gender** - To give some insights based on the gender of the individuals.
