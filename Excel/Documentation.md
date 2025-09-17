@@ -24,4 +24,11 @@ Below are the steps listed to create the whole project.
 
 - **Formatting and assigning correct datatype to dates** - Standardizing the dates to be of the date datatype or if there is any sort of problem or inconsistency with the way they are written it will be corrected using the inbuilt datatype changing function of excel after selecting all the columns. Will still recheck using the filter to see if it messed something up and take care of it.
 
-- **Separating the whole name into first and last name column*s - Will be creating some useful columns like first name and last name as the names are in one column.
+- **Separating the whole name into first and last name columns** - Will be creating some useful columns like first name and last name as the names are in one column.
+    - For separating the first name to its own column use `=TRIM(MID(A2, FIND(",", A2)+1, LEN(A2)))` this will use the MID to extract all the stuff after the ',' and then trim it as there is a space after the ',' but if you are sure that there is a space in all the rows you can just use `=MID(A2, FIND(",", A2)+2, LEN(A2))` instead. Mine contains some rows where there is no space after the delimiter so I will just use the previous one.
+    - For separating the last name to its own column use `=LEFT(A2, FIND(",", A2)-1)`, and then auto populate all the other rows in the columns.
+
+- **Creating an age column to get the age of the employees in years** - The DOB has been formatted properly so we can just use `=DATEDIF(R2, TODAY(), "Y")` to get the present age of individuals dynamically. We can also check the minimum and maximum ages using the filter which are 33 and 74 respectively.
+
+- **Creating an age bracket column to make more insightful visualizations** - We are going to use the column of age created in the previous step to segregate the people into age brackets of say 10 year intervals. The code will be `=IF(AND(AM2>=30, AM2<=40), "30-40", IF(AND(AM2>40, AM2<=50), "40-50", IF(AND(AM2>50, AM2<=60), "50-60", IF(AND(AM2>60, AM2<=70), "60-70", IF(AM2>70, "70+ years", "NULL")))))` . It can seem pretty hectic but its just a basic nested IF as long as you remember the brackets and don't input too many arguments into one IF statement.
+
