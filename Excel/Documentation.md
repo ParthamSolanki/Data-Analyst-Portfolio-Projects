@@ -2,6 +2,8 @@
 
 Below are the steps listed to create the whole project.
 
+## Basic cleaning and data transformation with some useful columns added.
+
 - **Creating copies of the raw data** - Creating a copy of the original file, or saving as an excel workbook to create multiple sheets within one as csv doesn't support that then creating a copy of the sheet in the workbook and using that without touching the original as say if something goes wrong, I can roll back. Doing both, creating a copy of the data as well as creating a copy of the sheet in the excel workbook itself.
 
 - **Changing formatting of the textual stuff** - If you want to change the formatting of the names and textual stuff and feel like it is not properly formatted (this dataset feels fine when I glossed over it), you can just use UPPER, LOWER or PROPER to formate the stuff in a standardized format. You can also remove the additional columns by copying the values over the original column to make the whole sheet look neater.
@@ -20,7 +22,7 @@ Below are the steps listed to create the whole project.
     For changing these blank cells to NULL -> Select the column > Go to special from the upper ribbon > Toggle Blank on then press ok > Type NULL without clicking anywhere > Ctrl + Enter to populate all the blank cells.
  Since its advisable to change it to NULL or something like that so that it doesn't cause issues later on when you are working with the data in a querying language, so we will be changing it. It can also be done manually by populating all the empty cells that show after you filter for blank cells.
 
-- **TRIM unnecessary spaces** - Since while looking through the columns there was not any problem with the leading or trailing spaces, so will not be trimming but if needed can be done using the trim function promptly and easily.
+- **TRIM unnecessary spaces** - Since while looking through the columns there was not any problem with the leading or trailing spaces, so will not be trimming but if needed can be done using the trim function promptly and easily. While making the KPI sheet I noticed that there are some trailing space after Production department, so going to tackle that and replace the original column.
 
 - **Formatting and assigning correct datatype to dates** - Standardizing the dates to be of the date datatype or if there is any sort of problem or inconsistency with the way they are written it will be corrected using the inbuilt datatype changing function of excel after selecting all the columns. Will still recheck using the filter to see if it messed something up and take care of it.
 
@@ -45,19 +47,22 @@ Below are the steps listed to create the whole project.
 - Creating a heading for the sections by combining and centering multiple cells
     - Workforce Overview
 
-- Creating an active employee cell by using `=COUNTIF(Working!M:M, 0)`
+- **Creating an active employee cell** - Use `=COUNTIF(Working!M:M, 0)`
 
-- Creating a pivot table for attrition rate by department.
-- Creating a pivot table for attrition rate by gender.
+- **Creating a pivot table for attrition rate by department**
+    - Rows - Department_Fixed
+    - Values - Employee count, Attrition count, Average of Employee Satisfaction, Average of absences, Average of salary, Attrition Rate
+While making the pivot table using the department, I noticed that there are trailing spaces in the Production row value, so we are going to remove them and replace the original row.
 
-## Creating the pivot table (Deleted)
+- **Creating a pivot table for attrition rate by gender**
+    - Rows - Gender
+    - Values - Employee Count, Attrition count, Average age, Average of absences, Average of Employee Satisfaction, Average of Salary, Attrition Rate
 
-- **Creating an employee headcount by department** - Tells how many total employees were employed per department, including both the active and non active ones.
+- **Creating a pivot table for metrics per department based on gender**
+    - Rows - Department_Fixed
+    - Values - Employee count, average of employee satisfaction, Special project count, average age, Average absences, Average salary
+Now to make it interactive and based on age we will just add a slicer to the pivot table based on Gender. 
 
-- **Creating an attrition table by department** - Will be adding an additional filter to find the count of attrition.
+## Creating a basic interactive dashboard
 
-- **Creating another table for attrition rate by department and a total attrition rate as a whole** - Creating a calculated field to get the attrition rate would requires there to be the count of employees as a value in the original data as the aggregated data can't be used directly from a pivot table. So creating helper tables that are just pasted values of the pivot tables will help to simplify and fasten the process while still yielding same results.
-
-- **Employee count by age bracket**
-
-- **Employee count, average salary and average age by gender** - To give some insights based on the gender of the individuals.
+- Most of the visualizations will be used from the data derived in the KPI sheet.
