@@ -38,7 +38,19 @@ Below are the steps listed to create the whole project.
 
 - **Creating an additional column for count of employees each** - We will count all the employees that are managed by each manager to get a sense of who is managing a ton or people and who is managing less. Use this function in an empty cell and then auto populate all the below rows - `=COUNTIF(Working!AD:AD, Managers!A2)`
 
-## Creating the pivot table
+- **Changing the genderID column to gender** - The genders of the employees are listed as 1 for male and 2 for female, will be changing it to make it more presentable by selecting the column and finding and replacing.
+
+## Creating a KPI sheet
+
+- Creating a heading for the sections by combining and centering multiple cells
+    - Workforce Overview
+
+- Creating an active employee cell by using `=COUNTIF(Working!M:M, 0)`
+
+- Creating a pivot table for attrition rate by department.
+- Creating a pivot table for attrition rate by gender.
+
+## Creating the pivot table (Deleted)
 
 - **Creating an employee headcount by department** - Tells how many total employees were employed per department, including both the active and non active ones.
 
