@@ -53,16 +53,20 @@ Below are the steps listed to create the whole project.
     - Rows - Department_Fixed
     - Values - Employee count, Attrition count, Average of Employee Satisfaction, Average of absences, Average of salary, Attrition Rate
 While making the pivot table using the department, I noticed that there are trailing spaces in the Production row value, so we are going to remove them and replace the original row.
+Adding a slicer based on gender will make it more useful as well as there won't be a need to make another pivot table based on gender.
 
-- **Creating a pivot table for attrition rate by gender**
-    - Rows - Gender
-    - Values - Employee Count, Attrition count, Average age, Average of absences, Average of Employee Satisfaction, Average of Salary, Attrition Rate
-
-- **Creating a pivot table for metrics per department based on gender**
-    - Rows - Department_Fixed
-    - Values - Employee count, average of employee satisfaction, Special project count, average age, Average absences, Average salary
-Now to make it interactive and based on age we will just add a slicer to the pivot table based on Gender. 
+Also have an additional sheet for pivot tables with more parameters named Pivot tables. It includes pivot tables for
+- Attrition rate by department
+- Attrition rate by gender
+- Metrics per department based on gender
+- Metrics based on age brackets sliced over gender
 
 ## Creating a basic interactive dashboard
 
+- Creating a copy of the pivot tables sheet to simplify the pivot tables and create more simplistic tables for making visualizations for the dashboard.
+
 - Most of the visualizations will be used from the data derived in the KPI sheet.
+
+- First we will make the heading after combining some cells and add active and terminated employees alongside it for quick viewing.
+
+- 
