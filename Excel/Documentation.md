@@ -1,6 +1,6 @@
 # Excel project with basic dashboard and visualizations
 
-Below are the steps listed to create the whole project.
+In this project I will be cleaning a dataset, adding some useful columns, replacing rows with one value to other values, then creating KPI sheets, pivot tables and visualizations using this data. Using these visualizations I will create a dashboard to track all the stuff from a centralized place. Since the data is of employees, it will end up looking like an HR analytics project with a basic dashboard.
 
 ## Basic cleaning and data transformation with some useful columns added.
 
@@ -55,6 +55,8 @@ Below are the steps listed to create the whole project.
 While making the pivot table using the department, I noticed that there are trailing spaces in the Production row value, so we are going to remove them and replace the original row.
 Adding a slicer based on gender will make it more useful as well as there won't be a need to make another pivot table based on gender.
 
+- **Creating a metrics table based on age brackets sliced over gender** - This will give an overview of the stuff based on the age brackets of the people which can be further focused based on genders.
+
 Also have an additional sheet for pivot tables with more parameters named Pivot tables. It includes pivot tables for
 - Attrition rate by department
 - Attrition rate by gender
@@ -69,4 +71,12 @@ Also have an additional sheet for pivot tables with more parameters named Pivot 
 
 - First we will make the heading after combining some cells and add active and terminated employees alongside it for quick viewing.
 
-- 
+- Making a gender column for only active individuals in a new sheet to make a gender split.
+
+- Adding visualizations of
+    - Employee count by department
+    - Average salaries by department with slicer for gender
+    - Attrition rate by department
+    - Metrics like Count, Attrition, Average number of special projects based on age brackets.
+
+Ending the project for creating the dashboard here as it feels pretty usable and I have already included most of the common stuff that is required, other stuff is ever so slightly more niche and without any context there is no need to keep working on it.
