@@ -500,7 +500,18 @@
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Designed and built a comprehensive HR analytics dashboard in Excel, transforming raw data into actionable insights on key workforce metrics like attrition, salary distribution, and employee satisfaction.])], column-gutter: 0cm)
 
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.],[Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.],[Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.],)
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.],[Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.],[Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel")[#strong[Fraud Detection Model]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a LightGBM model on a 200k-sample of 6.3M transactions to detect fraudulent activity, with workflow accelerated using AI-assisted research and coding support; engineered balance-delta and log-amount features, addressed extreme class imbalance \(scale\_pos\_weight ≈ 530\), and achieved strong ranking performance \(PR-AUC = <PR-AUC>\); interpreted model with SHAP and delivered actionable prevention recommendations.])], column-gutter: 0cm)
   ],
 )
 

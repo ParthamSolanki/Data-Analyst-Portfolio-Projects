@@ -1,0 +1,6 @@
+{
+  "pr_auc": 0.027415001326617606,
+  "roc_auc": 0.8927811987250817,
+  "precision_at_1pct": 0.04,
+  "best_threshold": 1.0
+}

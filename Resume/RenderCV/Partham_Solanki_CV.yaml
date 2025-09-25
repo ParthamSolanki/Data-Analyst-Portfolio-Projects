@@ -34,9 +34,16 @@ cv:
         location:
         summary: Designed and built a comprehensive HR analytics dashboard in Excel, transforming raw data into actionable insights on key workforce metrics like attrition, salary distribution, and employee satisfaction.
         highlights:
-          - Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
-          - Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
-          - Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
+          - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
+          - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
+          - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
+      - name: '[Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)'
+        date: 
+        start_date:
+        end_date:
+        location:
+        summary: Developed a LightGBM model on a 200k-sample of 6.3M transactions to detect fraudulent activity, with workflow accelerated using AI-assisted research and coding support; engineered balance-delta and log-amount features, addressed extreme class imbalance (scale_pos_weight ≈ 530), and achieved strong ranking performance (PR-AUC = <PR-AUC>); interpreted model with SHAP and delivered actionable prevention recommendations.
+        highlights:
       education:
       - institution: LPU
         area: Mathematics

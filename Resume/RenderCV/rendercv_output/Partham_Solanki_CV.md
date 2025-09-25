@@ -21,9 +21,12 @@
 
 ## [HR Analytics and Visualization Project](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
 
-- Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
-- Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
-- Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
+- Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
+- Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
+- Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
+
+## [Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
+
 
 # Education
 
