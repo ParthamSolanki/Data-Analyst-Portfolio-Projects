@@ -11,6 +11,20 @@
 - Data Analysis & BI: SQL (BigQuery, MySQL), Python (Pandas, NumPy, Matplotlib, Jupyter), Excel (Advanced), R (Rstudio, ggplot2), Tableau, Power BI
 - Dev & Collaboration Tools: Git (Github, GitLab), Linux (Shell scripting)
 - Cloud & Automation Tools: Azure (Data Studio, Synapse, Storage), AWS (S3, Redshift, Lambda), GCP - Data storage and pipelines
+# Projects
+
+## [SQL Data Cleaning & Exploratory Analysis (Goodreads Books Dataset)](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/SQL)
+
+- Removed duplicates and standardized author/publisher fields; converted dates to appropriate datatype.
+- Applied CTEs, window functions, and aggregations to rank top books by year and publisher.
+- Identified trends in book popularity, ratings distribution, and publisher performance.
+
+## [HR Analytics and Visualization Project](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
+
+- Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
+- Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
+- Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
+
 # Education
 
 ## LPU, M. Sc. in Mathematics
@@ -28,23 +42,4 @@
 - 2019 – 2022
 - GPA: 8.6/10.0
 - Electives: Mathematics
-
-# Projects
-
-## [Example Project](https://example.com)
-
-- May 2024 – present
-- Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-- The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-
-## [Teaching on Udemy](https://example.com)
-
-- Fall 2023
-- Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
-
-# Publications
-
-## 3D Finite Element Analysis of No-Insulation Coils ([10.1109/TASC.2023.3340648](https://doi.org/10.1109/TASC.2023.3340648))
-- Jan 2004
-- Frodo Baggins, ***John Doe***, Samwise Gamgee
 

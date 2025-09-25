@@ -16,6 +16,27 @@ cv:
         details: Git (Github, GitLab), Linux (Shell scripting)
       - label: Cloud & Automation Tools
         details: Azure (Data Studio, Synapse, Storage), AWS (S3, Redshift, Lambda), GCP - Data storage and pipelines
+      projects:
+      - name: '[SQL Data Cleaning & Exploratory Analysis (Goodreads Books Dataset)](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/SQL)'
+        date:
+        start_date: 
+        end_date: 
+        location:
+        summary: Cleaned and standardized a dataset of 10,000+ books, then performed SQL-based exploratory analysis to uncover trends in ratings, publishers, and languages.
+        highlights:
+          - Removed duplicates and standardized author/publisher fields; converted dates to appropriate datatype.
+          - Applied CTEs, window functions, and aggregations to rank top books by year and publisher.
+          - Identified trends in book popularity, ratings distribution, and publisher performance.
+      - name: '[HR Analytics and Visualization Project](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)'
+        date: 
+        start_date:
+        end_date:
+        location:
+        summary: Designed and built a comprehensive HR analytics dashboard in Excel, transforming raw data into actionable insights on key workforce metrics like attrition, salary distribution, and employee satisfaction.
+        highlights:
+          - Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
+          - Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
+          - Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
       education:
       - institution: LPU
         area: Mathematics
@@ -48,34 +69,6 @@ cv:
         highlights:
           - 'GPA: 8.6/10.0'
           - 'Electives: Mathematics'
-      projects:
-      - name: '[Example Project](https://example.com)'
-        date:
-        start_date: 2024-05
-        end_date: present
-        location:
-        summary: A web application for writing essays
-        highlights:
-          - Launched an [iOS app](https://example.com) in 09/2024 that currently has 10k+ monthly active users
-          - The app is made open-source (3,000+ stars [on GitHub](https://github.com))
-      - name: '[Teaching on Udemy](https://example.com)'
-        date: Fall 2023
-        start_date:
-        end_date:
-        location:
-        summary:
-        highlights:
-          - Instructed the "Statics" course on Udemy (60,000+ students, 200,000+ hours watched)
-      publications:
-      - title: 3D Finite Element Analysis of No-Insulation Coils
-        authors:
-          - Frodo Baggins
-          - '***John Doe***'
-          - Samwise Gamgee
-        doi: 10.1109/TASC.2023.3340648
-        url:
-        journal:
-        date: 2004-01
 design:
   theme: sb2nov
   page:

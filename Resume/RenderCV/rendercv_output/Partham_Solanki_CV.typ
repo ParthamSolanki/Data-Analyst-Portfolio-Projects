@@ -476,6 +476,36 @@
 )
 
 
+== Projects
+
+
+
+#one-col-entry(
+  content: [
+    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/SQL")[#strong[SQL Data Cleaning & Exploratory Analysis \(Goodreads Books Dataset\)]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Cleaned and standardized a dataset of 10,000+ books, then performed SQL-based exploratory analysis to uncover trends in ratings, publishers, and languages.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Removed duplicates and standardized author\/publisher fields; converted dates to appropriate datatype.],[Applied CTEs, window functions, and aggregations to rank top books by year and publisher.],[Identified trends in book popularity, ratings distribution, and publisher performance.],)
+  ],
+)
+
+#v(design-entries-vertical-space-between-entries)
+
+#one-col-entry(
+  content: [
+    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel")[#strong[HR Analytics and Visualization Project]]
+
+    #v(-design-text-leading)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Designed and built a comprehensive HR analytics dashboard in Excel, transforming raw data into actionable insights on key workforce metrics like attrition, salary distribution, and employee satisfaction.])], column-gutter: 0cm)
+
+#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Data Transformation - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.],[Dashboard Development - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.],[Actionable Insights - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.],)
+  ],
+)
+
+
+
 == Education
 
 
@@ -546,61 +576,6 @@
     right: design-entries-left-and-right-margin,
   ),
 )
-
-
-
-== Projects
-
-
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Example Project]]
-  ],
-  right-content: [
-    #emph[May 2024 – present]
-  ],
-)
-#one-col-entry(
-  content: [
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [A web application for writing essays])], column-gutter: 0cm)
-
-#v(-design-text-leading)  #v(design-highlights-top-margin);#highlights([Launched an #link("https://example.com")[iOS app] in 09\/2024 that currently has 10k+ monthly active users],[The app is made open-source \(3,000+ stars #link("https://github.com")[on GitHub]\)],)
-  ],
-)
-
-#v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #link("https://example.com")[#strong[Teaching on Udemy]]
-  ],
-  right-content: [
-    #emph[Fall 2023]
-  ],
-)
-#one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Instructed the \"Statics\" course on Udemy \(60,000+ students, 200,000+ hours watched\)],)
-  ],
-)
-
-
-
-== Publications
-
-
-#two-col-entry(
-  left-content: [
-    #strong[3D Finite Element Analysis of No-Insulation Coils]
-
-  ],
-  right-content: [
-    Jan 2004
-  ],
-)
-#one-col-entry(content:[
-#v(design-highlights-top-margin);Frodo Baggins, #strong[#emph[John Doe]], Samwise Gamgee
-
-#v(design-highlights-top-margin - design-text-leading)#link("https://doi.org/10.1109/TASC.2023.3340648")[10.1109/TASC.2023.3340648]])
 
 
 
