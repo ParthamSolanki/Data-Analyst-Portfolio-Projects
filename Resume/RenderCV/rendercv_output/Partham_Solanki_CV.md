@@ -40,9 +40,13 @@
 - 2023 – 2025
 - Percentage: 72.9%
 
-## Ramjas College, B. Sc. (Hons) in Physics
+## Ramjas College, DU, B. Sc. (Hons) in Physics
 
 - 2019 – 2022
 - GPA: 8.6/10.0
 - Electives: Mathematics
+
+# Summary
+
+My lifelong love of mathematics led me to earn a B.Sc. (Hons) in Physics, and a brief foray into teaching gave me clarity to refocus on data—so I completed the Google Data Analytics certification to pursue analytics full time. Since then, I’ve been building hands on projects to showcase my SQL, BigQuery, and Tableau expertise while expanding my toolkit with Docker, python and advanced analytics techniques. I’m eager to bring this growing skill set into an internship where I can contribute real world insights and continue learning from seasoned data teams.
 

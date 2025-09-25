@@ -50,8 +50,8 @@
 #let design-entries-allow-page-break-in-entries = true
 #let design-entries-horizontal-space-between-columns = 0.1cm
 #let design-entries-left-and-right-margin = 0.2cm
-#let design-page-top-margin = 2cm
-#let design-page-bottom-margin = 2cm
+#let design-page-top-margin = 1cm
+#let design-page-bottom-margin = 1cm
 #let design-page-left-margin = 2cm
 #let design-page-right-margin = 2cm
 #let design-page-show-last-updated-date = true
@@ -569,7 +569,7 @@
 // YES DATE, NO DEGREE
 #two-col-entry(
   left-content: [
-    #strong[Ramjas College]
+    #strong[Ramjas College, DU]
 
 #emph[B. Sc. \(Hons\) in Physics]
   ],
@@ -588,5 +588,13 @@
   ),
 )
 
+
+
+== Summary
+
+
+#one-col-entry(
+  content: [My lifelong love of mathematics led me to earn a B.Sc. \(Hons\) in Physics, and a brief foray into teaching gave me clarity to refocus on data—so I completed the Google Data Analytics certification to pursue analytics full time. Since then, I’ve been building hands on projects to showcase my SQL, BigQuery, and Tableau expertise while expanding my toolkit with Docker, python and advanced analytics techniques. I’m eager to bring this growing skill set into an internship where I can contribute real world insights and continue learning from seasoned data teams.]
+)
 
 
