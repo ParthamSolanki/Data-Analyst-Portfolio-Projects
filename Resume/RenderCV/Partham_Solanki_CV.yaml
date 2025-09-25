@@ -37,7 +37,7 @@ cv:
           - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
           - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
           - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
-      - name: '[Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)'
+      - name: '[Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Python/Fraud%20Detection%20Model)'
         date: 
         start_date:
         end_date:
@@ -188,7 +188,7 @@ design:
 locale:
   language: en
   phone_number_format: national
-  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_template: RESUME
   last_updated_date_template: Last updated in TODAY
   date_template: MONTH_ABBREVIATION YEAR
   month: month

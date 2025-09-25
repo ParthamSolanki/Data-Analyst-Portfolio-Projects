@@ -25,7 +25,7 @@
 - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
 - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
 
-## [Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
+## [Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Python/Fraud%20Detection%20Model)
 
 
 # Education
