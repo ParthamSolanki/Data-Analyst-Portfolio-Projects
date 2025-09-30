@@ -557,7 +557,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([Percentage: 72.9\%],)
+    
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -580,7 +580,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 8.6\/10.0],[Electives: Mathematics],)
+    #v(design-highlights-top-margin);#highlights([Electives: Mathematics],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,

@@ -38,12 +38,10 @@
 ## MDU, B. Ed. in Physical Science & Mathematics
 
 - 2023 – 2025
-- Percentage: 72.9%
 
 ## Ramjas College, DU, B. Sc. (Hons) in Physics
 
 - 2019 – 2022
-- GPA: 8.6/10.0
 - Electives: Mathematics
 
 # Summary
