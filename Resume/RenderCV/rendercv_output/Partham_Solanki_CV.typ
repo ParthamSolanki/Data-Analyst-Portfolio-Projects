@@ -588,6 +588,29 @@
   ),
 )
 
+#v(design-entries-vertical-space-between-entries)
+// YES DATE, NO DEGREE
+#two-col-entry(
+  left-content: [
+    #strong[Google]
+
+#emph[Professional Certificate in Data Analytics]
+  ],
+  right-content: [
+    #emph[2025 – 2025]
+  ],
+)
+#block(
+  [
+    #set par(spacing: 0pt)
+    
+  ],
+  inset: (
+    left: design-entries-left-and-right-margin,
+    right: design-entries-left-and-right-margin,
+  ),
+)
+
 
 
 == Summary
