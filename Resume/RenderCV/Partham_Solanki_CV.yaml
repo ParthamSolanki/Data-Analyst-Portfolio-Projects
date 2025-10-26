@@ -26,7 +26,7 @@ cv:
           - Removed duplicates and standardized author/publisher fields; converted dates to appropriate datatype.
           - Applied CTEs, window functions, and aggregations to rank top books by year and publisher.
           - Identified trends in book popularity, ratings distribution, and publisher performance.
-      - name: '[HR Analytics and Visualization Project](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)'
+      - name: '[HR Analytics and Visualization Project in Excel](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)'
         date: 
         start_date:
         end_date:
@@ -36,12 +36,12 @@ cv:
           - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
           - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
           - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
-      - name: '[Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Python/Fraud%20Detection%20Model)'
+      - name: '[HR Analytics Dashboard in Power BI](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Power%20BI)'
         date: 
         start_date:
         end_date:
         location:
-        summary: Developed a LightGBM model on a 200k-sample of 6.3M transactions to detect fraudulent activity, with workflow accelerated using AI-assisted research and coding support; engineered balance-delta and log-amount features, addressed extreme class imbalance (scale_pos_weight ≈ 456.3125), and achieved strong ranking performance (PR-AUC = 0.0274); interpreted model with SHAP and delivered actionable prevention recommendations.
+        summary: Developed a Power BI dashboard using the Excel-prepped HR dataset, enhancing interactivity and visualization. Modeled data relationships, created DAX measures for metrics like active employees and attrition, and designed clean, drillable visuals to explore salary, recruitment, and satisfaction insights.
         highlights:
       education:
       - institution: LPU

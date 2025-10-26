@@ -495,7 +495,7 @@
 
 #one-col-entry(
   content: [
-    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel")[#strong[HR Analytics and Visualization Project]]
+    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel")[#strong[HR Analytics and Visualization Project in Excel]]
 
     #v(-design-text-leading)
     #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Designed and built a comprehensive HR analytics dashboard in Excel, transforming raw data into actionable insights on key workforce metrics like attrition, salary distribution, and employee satisfaction.])], column-gutter: 0cm)
@@ -508,10 +508,10 @@
 
 #one-col-entry(
   content: [
-    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Python/Fraud%20Detection%20Model")[#strong[Fraud Detection Model]]
+    #link("https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Power%20BI")[#strong[HR Analytics Dashboard in Power BI]]
 
     #v(-design-text-leading)
-    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a LightGBM model on a 200k-sample of 6.3M transactions to detect fraudulent activity, with workflow accelerated using AI-assisted research and coding support; engineered balance-delta and log-amount features, addressed extreme class imbalance \(scale\_pos\_weight ≈ 456.3125\), and achieved strong ranking performance \(PR-AUC = 0.0274\); interpreted model with SHAP and delivered actionable prevention recommendations.])], column-gutter: 0cm)
+    #two-col(left-column-width: design-highlights-summary-left-margin, right-column-width: 1fr, left-content: [], right-content: [#v(design-highlights-top-margin);#align(left, [Developed a Power BI dashboard using the Excel-prepped HR dataset, enhancing interactivity and visualization. Modeled data relationships, created DAX measures for metrics like active employees and attrition, and designed clean, drillable visuals to explore salary, recruitment, and satisfaction insights.])], column-gutter: 0cm)
   ],
 )
 

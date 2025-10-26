@@ -19,13 +19,13 @@
 - Applied CTEs, window functions, and aggregations to rank top books by year and publisher.
 - Identified trends in book popularity, ratings distribution, and publisher performance.
 
-## [HR Analytics and Visualization Project](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
+## [HR Analytics and Visualization Project in Excel](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Excel)
 
 - Cleaned and prepped raw HR data, creating custom metrics and dynamic pivot tables for detailed analysis.
 - Built a single-page, interactive dashboard with visualizations to centralize and simplify complex HR data.
 - Identified key workforce trends to support data-driven decisions on retention, compensation, and employee well-being.
 
-## [Fraud Detection Model](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Python/Fraud%20Detection%20Model)
+## [HR Analytics Dashboard in Power BI](https://github.com/ParthamSolanki/Data-Analyst-Portfolio-Projects/tree/main/Power%20BI)
 
 
 # Education
